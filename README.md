@@ -1,60 +1,53 @@
-[<img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-4/images/deep-learning-from-scratch-4.png" width="200px">](https://www.amazon.co.jp/dp/4873119758)
 
-書籍『[ゼロから作るDeep Learning ❹ 強化学習編](https://www.amazon.co.jp/dp/4873119758)』(オライリー・ジャパン)のサポートサイトです。本書籍で使用するソースコードがまとめられています。
+## 文件夹结构
 
-
-## ニュース
-<a href="https://koki0702.github.io/dezero-p100/"><img src="https://raw.githubusercontent.com/oreilly-japan/deep-learning-from-scratch-4/images/p100.png" height="200px"></a>
-
-本書の内容を確認するための「強化学習100題」を用意しています。
-
-https://koki0702.github.io/dezero-p100/
-
-
-## ファイル構成
-
-|フォルダ名 |説明                         |
+|文件夹名称 |说明                         |
 |:--        |:--                          |
-|ch01       |1章で使用するソースコード    |
+|ch01       |第1章中使用的源代码    |
 |...        |...                          |
-|ch09       |9章で使用するソースコード    |
-|common     |共通で使用するソースコード   |
-|notebooks       |Jupyter Notebook形式のソースコード   |
-|pytorch     |PyTorchに移植したソースコード   |
+|ch09       |第9章中使用的源代码    |
+|common     |公用的源代码   |
+|notebooks       |Jupyter Notebook形式的源代码   |
+|pytorch     |移植到PyTorch中的源代码   |
 
 
 ## Jupyter Notebook
-本書のコードはJupyter Notebookでも用意しています。次の表にあるボタンをクリックすることで、Google ColabやKaggle Notebookなどのクラウドサービス上でNotebookを実行することができます。
+
+本书的代码也提供了Jupyter Notebook格式。通过点击下表中的按钮，应该可以在Google Colab或Kaggle Notebook等云服务上执行Notebook。
+
 
 | 章 | Colab | Kaggle | Studio Lab |
 | :--- | :--- | :--- | :--- |
-| 1章 バンディット問題 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) |
-| 4章 動的計画法 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) |
-| 5章 モンテカルロ法 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) |
-| 6章 TD法 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) |
-| 7章 ニューラルネットワークとQ学習 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) |
-| 8章 DQN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) |
-| 9章 方策勾配法  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) |
+| 第1章 老虎机问题 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/01_bandit.ipynb) |
+|第4章 动态规划法| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/04_dynamic_programming.ipynb) |
+| 第5章 蒙特卡洛方法 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/05_montecarlo.ipynb) |
+| 第6章 TD方法 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) |
+| 第7章 神经网络和Q学習 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/06_temporal_difference.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/07_neural_networks.ipynb) |
+| 第8章 DQN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/08_dqn.ipynb) |
+| 第9章 策略梯度法  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) | [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) | [![Open In SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://studiolab.sagemaker.aws/import/github/oreilly-japan/deep-learning-from-scratch-4/blob/master/notebooks/09_policy_gradient.ipynb) |
 
 
 
-## Pythonと外部ライブラリ
-ソースコードを実行するには、下記のソフトウェアが必要です。
+## Python的版和外部库
+本书中使用的Python版本和外部库如下所示。
 
-* Python 3.x（バージョン3系）
+* Python 3系列
 * NumPy
 * Matplotlib
+* DeZero（或PyTorch）
 * OpenAI Gym
-* DeZero （または PyTorch）
 
 
-本書では、ディープラーニングのフレームワークとしてDeZeroを使います。DeZeroは「ゼロから作るDeep Learning」シリーズの3作目で作ったフレームワークです（ `pip install dezero` からインストールできます）。
+本书将使用DeZero作为深度学习的框架，这个框架是我们在“深度学
+习入门 & 进阶”系列的第三本书[《深入学习入门2：自制框架》](https://www.ituring.com.cn/book/2863)中创建的。（可以通过`pip install dezero`进行安装）。DeZero是一个简单的框架，你应该很快就能掌握它。第7章对如何使用DeZero做了介绍。虽然本书使用的是DeZero，但使用其他框架（如PyTorch或TensorFlow）也不影响阅读本书。
 
-PyTorchを使った実装は[pytorchフォルダ](https://github.com/oreilly-japan/deep-learning-from-scratch-4/tree/master/pytorch)にて提供しています。
+> DeZero和PyTorch的许多API是相同的。因此，可以很容易地将DeZero版的代码移植到PyTorch版的代码中。本书配套的 GitHub 仓
+库（参见下文）也提供了 PyTorch 版的代码。
 
-## 実行方法
-各章のフォルダに該当するコードがあります。
-実行するためには、下記のとおりPythonコマンドを実行します（どのディレクトリからでも実行できます）。
+使用PyTorch的实现可以在[pytorch](https://github.com/cncuckoo/deep-learning-from-scratch-4-cn/tree/master/pytorch)目录中找到。
+
+## 运行方法
+文件夹ch01到ch09中包含本书各章所使用的文件。要运行这些文件，请按以下方法执行Python命令（可以从任何目录中执行Python命令）：
 
 ```
 $ python ch01/avg.py
@@ -64,15 +57,13 @@ $ cd ch09
 $ python actor_critic.py
 ```
 
-## ライセンス
+## 许可方式
 
-本リポジトリのソースコードは[MITライセンス](http://www.opensource.org/licenses/MIT)です。
-商用・非商用問わず、自由にご利用ください。
+本仓库的源代码遵循[MIT许可](http://www.opensource.org/licenses/MIT)。无论商业或非商业用途，都可以自由使用。
 
-## 正誤表
 
-本書の正誤情報は以下のページで公開しています。
+## 勘误信息
 
-https://github.com/oreilly-japan/deep-learning-from-scratch-4/wiki/errata
+本书的勘误信息汇总在[勘误页面](https://www.ituring.com.cn/book/3185)。
 
-本ページに掲載されていない誤植など間違いを見つけた方は、[japan@oreilly.co.jp](<mailto:japan@oreilly.co.jp>)までお知らせください。
+如果您发现任何未列在勘误页面上的错字或其他错误，请在勘误页面[提交勘误](https://www.ituring.com.cn/book/3185)。

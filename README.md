@@ -13,7 +13,7 @@
 
 ## Jupyter Notebook
 
-本书的代码也提供了Jupyter Notebook格式。通过点击下表中的按钮，应该可以在Google Colab或Kaggle Notebook等云服务上执行Notebook。
+本书的代码也提供了Jupyter Notebook格式。通过点击下表中的按钮，应该可以在Google Colab或Kaggle Notebook等云服务上运行Notebook。
 
 
 | 章 | Colab | Kaggle | Studio Lab |
